@@ -15,7 +15,7 @@ $medium: "(min-width: 768px)";
 }
 
 body {
-	background: url(./src/images/bg-intro-mobile.png), $red {
+	background: url(/src/images/bg-intro-mobile.png), $red {
 		position: center;
 		repeat: repeat;
 	}
@@ -24,7 +24,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 	
 	@media #{$medium} {
-		background: url(./src/images/bg-intro-desktop.png), $red {
+		background: url(/src/images/bg-intro-desktop.png), $red {
 			position: center;
 			repeat: repeat;
 		}		
